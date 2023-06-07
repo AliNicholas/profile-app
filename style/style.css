@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c2aad3;
+}
+
+header {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-self: flex-start;
+  background-color: #4b0082;
+  color: #fff;
+  padding: 10 px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.content,
+.about-me {
+  max-width: 800px;
+}
+
+.profile-img {
+  width: 150px;
+}   
+
+img{
+  border-radius: 50%;
+  width: 50px;
+  
+}
+
+.profile {
+  float: left;
+  width: 50%;
+}
+
+.profile p {
+  margin: 0;
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.contact {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.contact p {
+  margin: 10px 190px;
+  color: #4b0082;
+  text-align: left;
+}
+
+.contact p:last-child {
+  margin-bottom: 0;
+}
+
+.contact p:first-of-type {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.story {
+  margin-top: 250px;
+  clear: both;
+  border: 2px solid #4b0082;
+  background-color: #f3e3ff;
+  padding: 10px;
+  box-shadow: 0 0 5px #888888;
+}
+
+.about-me {
+  margin-top: 50px;
+}
+
+.about-me p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.media-img img {
+  margin-right: 20px;
+}
+.profile p:first-of-type {
+  padding-left: 50px;
+}
+.profile p{
+  padding-left: 10px;
+}
+
+.profile-img {
+  padding-left: 20px;
+}
